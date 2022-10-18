@@ -81,6 +81,8 @@ button2.onclick = () => {
         if (sure === true) {
             localStorage.clear()
             divAdd.innerHTML = ""
+            arr = []
+            window.location.reload()
         }
     }
 }
